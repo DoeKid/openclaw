@@ -1,6 +1,11 @@
 {
   "gateway": {
-    "controlUi": {
+    {
+  "gateway": {
+    "trustedProxies": ["*"]
+  }
+}
+"controlUi": {
       "dangerouslyDisableDeviceAuth": true,
       "allowInsecureAuth": true
     }
